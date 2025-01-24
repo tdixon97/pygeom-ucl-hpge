@@ -20,7 +20,7 @@ Then the package can be installed with pip.
 Or:
 
 ```console
-    pip install -e .[tests]
+    pip install -e .[test]
 ```
 We follow the best practices defined in [pygama-developers-guide](https://pygama.readthedocs.io/en/stable/developer.html)
 
