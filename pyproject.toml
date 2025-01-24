@@ -27,7 +27,7 @@ dependencies = [
     "numpy>=1.21",
     "awkward",
     "pyg4ometry",
-    "matplotlib", 
+    "matplotlib",
     "legend-pygeom-tools",
 ]
 dynamic = ["version"]
