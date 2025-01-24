@@ -32,6 +32,20 @@ dependencies = [
 ]
 dynamic = ["version"]
 
+[tool.setuptools_scm]
+write_to = "src/pygeom_ucl_hpge/_version.py"
+
+[project.optional-dependencies]
+all = [
+    "pygeom_ucl_hpge[test]",
+]
+
+test = [
+    "pre-commit",
+    "pytest>=6.0",
+    "pytest-cov",
+]
+
 [tool.setuptools]
 include-package-data = true
 zip-safe = false
