@@ -22,7 +22,14 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
 ]
 requires-python = ">=3.10"
-dependencies = []
+[project.dependencies]
+dependencies = [
+    "numpy>=1.21",
+    "awkward",
+    "pyg4ometry",
+    "matplotlib", 
+    "legend-pygeom-tools",
+]
 dynamic = ["version"]
 
 [project.urls]
